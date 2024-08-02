@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #faf0dc;
-    color: #333;
+    color: #000;
     margin: 0;
     padding: 0;
 }
@@ -13,8 +13,38 @@ header {
     text-align: center;
 }
 
-h1 {
-    margin: 0;
+header img.welcome-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 1em auto;
+}
+
+nav {
+    background-color: #a67a5b;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #faf0dc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 main {
