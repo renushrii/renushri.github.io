@@ -1,99 +1,25 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #faf0dc;
-    color: #000;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #a67a5b;
-    color: #faf0dc;
-    padding: 1em 0;
-    text-align: center;
-}
-
-header img.welcome-image {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    display: block;
-    margin: 1em auto;
-}
-
-nav {
-    background-color: #a67a5b;
-    padding: 1em 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
     display: flex;
+    align-items: center;
     justify-content: center;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
 }
 
-nav ul li {
-    margin: 0 1em;
-}
-
-nav ul li a {
-    color: #faf0dc;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-main {
-    padding: 2em;
-}
-
-section {
-    margin-bottom: 2em;
-}
-
-h2 {
-    color: #a67a5b;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-label {
-    margin: 0.5em 0 0.2em 0;
-}
-
-input, textarea {
-    padding: 0.5em;
-    margin-bottom: 1em;
-    border: 1px solid #a67a5b;
-    border-radius: 5px;
-}
-
-button {
-    background-color: #a67a5b;
-    color: #faf0dc;
-    padding: 0.5em 1em;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #855d45;
-}
-
-footer {
-    background-color: #a67a5b;
-    color: #faf0dc;
+.coming-soon-container {
     text-align: center;
-    padding: 1em 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
